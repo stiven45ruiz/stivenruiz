@@ -1,0 +1,92 @@
+
+/*ETIQUETAS*/
+body
+{
+    margin: auto;
+    background-image: url(../img/ep_naturalblack.png); /*Image by Briam Cute from Pixabay*/
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+}
+
+header
+{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    overflow: inline-block;
+    margin: 1%;
+    padding: 20px;
+    color: #d2dae2;
+    text-align: center;
+    white-space: pre-line;
+}
+
+header > h1
+{
+  
+  font-size: 40px;
+}
+
+section
+{
+    color: white;
+    margin: 0;
+}
+
+/*CLASES*/
+
+.barr-der
+{
+    padding-left:2em; 
+}
+
+.edu
+{
+    padding-left: 20%;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.5em;
+    color: silver;
+    white-space: pre-line;
+}
+
+.inline-block
+{
+    display: inline-block;
+    margin: auto;
+}
+
+.info
+{
+    position: relative;
+    text-align: start;
+}
+
+.hd
+{
+    
+    padding-right: 10%; 
+}
+
+.img
+{
+    filter: brightness(.2);
+   border-radius: 50%;
+   height: auto;
+   padding-left: 2em;
+}
+.img:hover
+{
+    filter: brightness(1);
+}
+
+.mrg
+{
+    padding-bottom: 20px;
+}
+
+.til
+{
+    color: silver;
+    font-size: 30px;
+}
